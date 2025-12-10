@@ -16,6 +16,8 @@ header, footer {
 img {
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 main, #pilotos, #contacto, #constructores {
@@ -33,7 +35,9 @@ h1, h2 {
 }
 
 .imgTeamMcLaren {
-    width: 700px;
+    width: 750px;
+    margin: 0 auto;
+    display: block;
 }
 
 input, textarea {
