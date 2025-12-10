@@ -1,0 +1,58 @@
+body {
+    background-color: #ffffff;
+    font-family: "Arial", sans-serif;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #15151e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+main, #pilotos, #contacto, #constructores {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#pilotos, #constructores {
+    background-color: #f5f5f5;
+}
+
+h1, h2 {
+    color: #e10600;
+}
+
+.imgTeamMcLaren {
+    width: 750px;
+    margin: 0 auto;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+}
+
+nav a {
+    color: #e10600;
+    text-decoration: none; /* Cambiado de underline a none */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
