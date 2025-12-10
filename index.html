@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados F1 - 2025 </title>
+    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="shortcut icon" href="./src/icons/icons8-f1-100.png" >
 </head>
 
@@ -18,13 +19,54 @@
     </nav>
 </header>
 
-<main id="inicio" > <!-- class lleva ese estilo a todo lo que esté en ese bloque -->
+<main id="inicio" >
     <section>
         <h2>Concluye la Temporada 2025 de F1</h2>
         <p>Aquí encontrarás los resultados más recientes de los pilotos y constructores.</p>
         <img src="./src/images/formula1.jpg" alt="Imagen de F1 2025">
     </section>
 </main>
-</body>
 
+<div id="pilotos">
+    <h2>Tabla Pilotos </h2>
+    <p>El top 5 de pilotos quedó de la siguiente manera:</p>
+    <ol>
+        <li>Lando Norris - McLaren - 423 puntos</li>
+        <li>Max Verstappen - Red Bull Racing - 421 puntos</li>
+        <li>Oscar Piastri - McLaren - 410 puntos</li>
+        <li>George Russell - Mercedes - 319 puntos</li>
+        <li>Charles Leclerc - Ferrari - 242 puntos</li>
+    </ol>
+    <img src="./src/images/landoNorrisCelebrando.jpg" alt="Imagen Lando Norris Celebrando">
+</div>
+
+<div id="constructores">
+    <h2>Tabla Constructores </h2>
+    <p>El top 3 de constructores quedó de la siguiente manera:</p>
+    <ol>
+        <li>McLaren - 833 puntos</li>
+        <li>Mercedes - 469 puntos</li>
+        <li>Red Bull Racing - 451 puntos</li>
+    </ol>
+    <img src="./src/images/mcLarenCelebrando.png" alt="Imagen McLaren F1 Team 2025">
+</div>
+
+<div id="contacto">
+    <form action="#" method="post">
+        <h2>Contáctame</h2>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+<footer>
+    <p>© 2025 Blog F1. Todos los derechos reservados.</p>
+</footer>
+
+</body>
 </html>
