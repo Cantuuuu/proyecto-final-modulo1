@@ -18,7 +18,7 @@ img {
     height: auto;
 }
 
-main, #pilotos, #contacto {
+main, #pilotos, #contacto, #constructores {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
@@ -31,3 +31,24 @@ main, #pilotos, #contacto {
 h1, h2 {
     color: #e10600;
 }
+
+.imgTeamMcLaren {
+    width: 700px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+}
+
+nav a {
+    color: #e10600;
+    text-decoration: none; /* Cambiado de underline a none */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
